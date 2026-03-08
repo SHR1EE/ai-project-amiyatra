@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_de3d10fc194ac6657916c4ffb1163f0c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_de3d10fc194ac6657916c4ffb1163f0c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_de3d10fc194ac6657916c4ffb1163f0c = L.map(
+                "map_de3d10fc194ac6657916c4ffb1163f0c",
+                {
+                    center: [28.5443, 77.333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c6f802d5812bf6b825da4862d68049fc = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_c6f802d5812bf6b825da4862d68049fc.addTo(map_de3d10fc194ac6657916c4ffb1163f0c);
+        
+    
+            var marker_710197a2ed1dd73773582bd672eb1810 = L.marker(
+                [28.5443, 77.333],
+                {}
+            ).addTo(map_de3d10fc194ac6657916c4ffb1163f0c);
+        
+    
+            var icon_d86ab6874f6df85176b6767a6586e533 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_710197a2ed1dd73773582bd672eb1810.setIcon(icon_d86ab6874f6df85176b6767a6586e533);
+        
+    
+        var popup_e15f5c2734590fcccd1b843ec5991b7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce512ca82c3d102c9995451d8ce76ddb = $(`<div id="html_ce512ca82c3d102c9995451d8ce76ddb" style="width: 100.0%; height: 100.0%;">1. Amity University (Start)</div>`)[0];
+                popup_e15f5c2734590fcccd1b843ec5991b7b.setContent(html_ce512ca82c3d102c9995451d8ce76ddb);
+            
+        
+
+        marker_710197a2ed1dd73773582bd672eb1810.bindPopup(popup_e15f5c2734590fcccd1b843ec5991b7b)
+        ;
+
+        
+    
+    
+            var marker_5e6ae242ac68f9b4315e3d9b7c56f1e3 = L.marker(
+                [28.554, 77.335],
+                {}
+            ).addTo(map_de3d10fc194ac6657916c4ffb1163f0c);
+        
+    
+            var icon_936e2d164c992a90d2bcfcdc622a18fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e6ae242ac68f9b4315e3d9b7c56f1e3.setIcon(icon_936e2d164c992a90d2bcfcdc622a18fc);
+        
+    
+        var popup_f1d5b66fd2000844380c13b062134c69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b643a5ad5e828aa175cc38179b692cba = $(`<div id="html_b643a5ad5e828aa175cc38179b692cba" style="width: 100.0%; height: 100.0%;">2. Sector 44 Food Market</div>`)[0];
+                popup_f1d5b66fd2000844380c13b062134c69.setContent(html_b643a5ad5e828aa175cc38179b692cba);
+            
+        
+
+        marker_5e6ae242ac68f9b4315e3d9b7c56f1e3.bindPopup(popup_f1d5b66fd2000844380c13b062134c69)
+        ;
+
+        
+    
+    
+            var marker_8fed38b75dfefd747a7edd6f3230c23b = L.marker(
+                [28.5676, 77.3256],
+                {}
+            ).addTo(map_de3d10fc194ac6657916c4ffb1163f0c);
+        
+    
+            var icon_465d69a4e3f266dd481f38f831d5b21b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fed38b75dfefd747a7edd6f3230c23b.setIcon(icon_465d69a4e3f266dd481f38f831d5b21b);
+        
+    
+        var popup_44a4b1fc68f993d5d422d0d25f54de58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0dc1038d9b7aabdde37e4ebce4dae25 = $(`<div id="html_a0dc1038d9b7aabdde37e4ebce4dae25" style="width: 100.0%; height: 100.0%;">3. Gardens Galleria Plaza</div>`)[0];
+                popup_44a4b1fc68f993d5d422d0d25f54de58.setContent(html_a0dc1038d9b7aabdde37e4ebce4dae25);
+            
+        
+
+        marker_8fed38b75dfefd747a7edd6f3230c23b.bindPopup(popup_44a4b1fc68f993d5d422d0d25f54de58)
+        ;
+
+        
+    
+    
+            var marker_dad0e968556716bb0419f497af91ff76 = L.marker(
+                [28.5562, 77.3045],
+                {}
+            ).addTo(map_de3d10fc194ac6657916c4ffb1163f0c);
+        
+    
+            var icon_fe3970c25206ae3a03383664bd53ec8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dad0e968556716bb0419f497af91ff76.setIcon(icon_fe3970c25206ae3a03383664bd53ec8c);
+        
+    
+        var popup_6e6734fc27dda6b2d380e6673b2e71de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_047a7b6d81dba3e444c419f29811d9d0 = $(`<div id="html_047a7b6d81dba3e444c419f29811d9d0" style="width: 100.0%; height: 100.0%;">4. Okhla Bird Sanctuary</div>`)[0];
+                popup_6e6734fc27dda6b2d380e6673b2e71de.setContent(html_047a7b6d81dba3e444c419f29811d9d0);
+            
+        
+
+        marker_dad0e968556716bb0419f497af91ff76.bindPopup(popup_6e6734fc27dda6b2d380e6673b2e71de)
+        ;
+
+        
+    
+    
+            var marker_273c1794fa3b503f62ad6450cbd85c75 = L.marker(
+                [28.5866, 77.34],
+                {}
+            ).addTo(map_de3d10fc194ac6657916c4ffb1163f0c);
+        
+    
+            var icon_9d682bcb946d86ac99543e6055f3aaf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_273c1794fa3b503f62ad6450cbd85c75.setIcon(icon_9d682bcb946d86ac99543e6055f3aaf1);
+        
+    
+        var popup_78325389e8b5c9acbda7738a1c7062fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6264583ac0a21cbc5175df4d3120ba6e = $(`<div id="html_6264583ac0a21cbc5175df4d3120ba6e" style="width: 100.0%; height: 100.0%;">5. Noida Stadium Sports Complex</div>`)[0];
+                popup_78325389e8b5c9acbda7738a1c7062fb.setContent(html_6264583ac0a21cbc5175df4d3120ba6e);
+            
+        
+
+        marker_273c1794fa3b503f62ad6450cbd85c75.bindPopup(popup_78325389e8b5c9acbda7738a1c7062fb)
+        ;
+
+        
+    
+    
+            var poly_line_fb2ec8eb3512a28789618241324955bd = L.polyline(
+                [[28.5443, 77.333], [28.554, 77.335], [28.5676, 77.3256], [28.5562, 77.3045], [28.5866, 77.34], [28.5443, 77.333]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": "10", "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_de3d10fc194ac6657916c4ffb1163f0c);
+        
+</script>
+</html>
